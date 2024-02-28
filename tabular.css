@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ubuntu", sans-serif;
+}
+
+
+
+table {
+    width: 80vw;
+}
+
+th {
+    border: 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 0.5vw;
+}
+
+#firstRow {
+    background-color: #930002;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+td {
+    border-bottom: 1px solid grey;
+}
+
+tr {
+    width: 80vw;
+    height: 10vh;
+    background-color: #fff;
+    /* Light gray background color for rows */
+    border-radius: 10px;
+    /* Rounded corners */
+    transition: background-color 0.3s;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    /* Smooth transition */
+
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+    /* Darker gray background color on hover */
+}
+
+
+
+.EventNavigation {
+    height: 100vh;
+    width: 20vw;
+    background-color: #930002;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h3 {
+    font-size: 3rem;
+    color: #930002;
+    padding: 1rem;
+}
+
+#logo3 {
+    height: 4rem;
+    width: 17rem;
+    border-radius: 2rem;
+
+}
+
+.allitems {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-around;
+
+
+}
+
+#myfeature {
+    height: 2rem;
+    width: 2rem;
+    margin-right: 2.5rem;
+    margin-left: 1.5rem;
+}
+
+.feature {
+    width: 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.BloodEvent {
+    display: flex;
+    flex-direction: row;
+}
+
+.tabularbutton {
+    font-size: 1.5rem;
+    color: #4C4C4C;
+    transition: all 0.5s;
+    padding: 15px 15px;
+    border: none;
+    background-color: transparent;
+    border-radius: 1.5rem;
+
+}
+
+.tabularbutton:hover {
+    background-color: #930002;
+    cursor: pointer;
+    color: white;
+}
+
+.cell {
+    text-align: center;
+}

@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ubuntu", sans-serif;
+    overflow-x: hidden;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.homePage {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navBar {
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    overflow-y: hidden;
+    padding: 2rem;
+
+
+
+}
+
+.quotes {
+    height: 88vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0, rgba(0.1, 0.1, 0.1, 0.1) 20%, rgba(0, 0, 0, 0.8) 100%), url("./images/bg4.jpg");
+    color: aliceblue;
+    background-size: contain;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.lifesave {
+    height: 50vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+p {
+    letter-spacing: 0.02rem;
+    word-spacing: 0.3rem;
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-weight: 400;
+
+}
+
+span {
+    color: #930002;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 3rem;
+
+}
+
+h1 {
+
+    color: #930002;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+button {
+    font-size: 1.5rem;
+    color: #4C4C4C;
+    transition: all 0.5s;
+    padding: 15px 15px;
+    border: none;
+    background-color: transparent;
+    border-radius: 1.5rem;
+
+}
+
+button:hover {
+    background-color: #930002;
+    cursor: pointer;
+    color: white;
+}
+
+#logo {
+    height: 4rem;
+    width: 17rem;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+#donor1 {
+    background-color: #790204;
+    color: aliceblue;
+}
+
+#donor1:hover {
+    background-color: #930002;
+    color: aliceblue;
+}
+
+.buttons1 {
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1.5rem;
+}
+
+.BloodEvent {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.EventNavigation {
+    height: 100vh;
+    width: 20vw;
+    background-color: #930002;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#Enav {
+    width: 19.80vw;
+}
+
+#myfeature {
+    height: 2rem;
+    width: 2rem;
+    margin-right: 2.5rem;
+    margin-left: 1.5rem;
+}
+
+.feature {
+    width: 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: aliceblue;
+}
+
+.allitems {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-around;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#logo3 {
+    height: 4rem;
+    width: 17rem;
+    border-radius: 2rem;
+
+}
+
+.searchBar {
+    width: 80vw;
+    height: 15vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow-y: hidden;
+
+}
+
+#search {
+    height: 4vh;
+    padding: 1rem;
+    width: 25vw;
+    border: none;
+    background-color: #f3f3f3;
+}
+
+#icon {
+    height: 2rem;
+    width: 2rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.iconclass {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 30vw;
+}
+
+.myIcons {
+    height: 10vh;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.AboutUs {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("images/aaabstract.jpg");
+    background-size: contain;
+    background-size: cover;
+
+
+
+}
+
+#about {
+    color: black;
+}
+
+.content {
+    height: 70vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content>h1 {
+    font-size: 5rem;
+}
+
+
+#sub {
+    background-color: #790402;
+    color: aliceblue;
+    width: 10vw;
+    font-size: 1.2rem;
+    height: auto;
+
+
+
+
+}
+
+#sub:hover {
+    background-color: #930002;
+    color: aliceblue;
+}

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BloodDonation</title>
+    <link rel="stylesheet" href="reddrop_signup.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./hackhome.css" />
+    <script src="script.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_pdByzEMSsRVfAeA0uOccz");
+        })();
+    </script>
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="homePage" id="gotohomepage">
+        <div class="navBar">
+            <img id="logo" src="images/logo2.jpg" alt="">
+            <div class="buttons">
+                <a href="#gotohomepage"><button>Home</button></a>
+                <a href="#gottoabout"><button>About Us</button></a>
+                <a href="#bloodEvent"><button>Blood Event</button></a>
+                <a href="#mailME"><button>Contact Us</button></a>
+            </div>
+        </div>
+        <div class="quotes">
+            <div class="lifesave">
+                <h1>Donate Blood & Save a Life</h1>
+
+                <p>Donating blood is a selfless act because it involves giving up one's own blood to help someone else
+                    inneed.It is an act of kindness and generosity that does not require any monetary compensation.
+                    Donating
+                    bloodcan save lives, and it is a way to give back to the community and help those in need. It is an
+                    act
+                    ofcompassion and selflessness that can make a real difference in someone's life.
+                </p>
+            </div>
+            <div class="buttons1">
+
+                <a href="#bloodEvent"><button id="donor1" onclick="Donate()">Donate</button></a>
+                <a href="#bloodEvent"><button id="donor1" onclick="receive()">Receive</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="AboutUs" id="gottoabout">
+        <div class="navBar">
+            <img id="logo" src="images/logo2.jpg" alt="">
+            <div class="buttons">
+                <a href="#gotohomepage"><button>Home</button></a>
+                <button>About Us</button>
+                <a href="#bloodEvent"><button>Blood Event</button></a>
+                <a href="#mailME"><button>Contact Us</button></a>
+            </div>
+        </div>
+        <div class="content">
+            <h1>About Us</h1>
+            <p id="about"><span>REDDROP</span> is a platform which fills the gap between blood donors and receivers who
+                are
+                in need
+                Users can register as a donor or as a normal user .
+                Hospitals can use the platform to find out which blood bank have the required units available and
+                collect
+                those units as needed.
+            </p>
+        </div>
+    </div>
+    <div id="bloodEvent" class="BloodEvent">
+        <div class="EventNavigation">
+            <img id="logo3" src="images/logo2.jpg" alt="">
+
+            <div class="allitems">
+                <div class="feature">
+                    <img id="myfeature" src="images/features/plus.png" alt="">
+                    <a href="#bloodEvent" onclick="receive()">
+                        <h4>Add Requests</h4>
+                    </a>
+
+                </div>
+                <div class="feature">
+                    <img id="myfeature" src="images/features/user (2).png" alt="">
+                    <a href="profiletable.html">
+                        <h4>Profile</h4>
+                    </a>
+                </div>
+
+
+                <div class="feature">
+                    <img id="myfeature" src="images/features/quote-request (1).png" alt="">
+                    <a href="tabular.html">
+                        <h4>Blood Requests</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container4">
+            <div class="searchBar">
+                <div class="iconclass">
+                    <input id="search" type="search" placeholder="Search for..">
+                    <img id="icon" src="images/features/magnifying-glass.png" alt="">
+                </div>
+                <div class="myIcons">
+                    <img id="icon" src="images/features/notification (1).png" alt="">
+                    <img id="icon" src="images/features/email.png" alt="">
+                    <img id="icon" src="images/features/drop-silhouette.png" alt="">
+                </div>
+            </div>
+            <div class="donorform">
+                <h3 id="received">Blood Donor Form</h3>
+                <form action="" id="donor">
+                    <div class="left">
+                        <label for="name">Your name</label>
+                        <input id="name" type="text" placeholder="Ram Bahadur"><br>
+                        <label for="firstname">First Name of the patient</label>
+                        <input type="text" placeholder="John"><br>
+                        <label for="age">Age</label><br>
+                        <input id="age" type="text" placeholder="25">
+                    </div>
+                    <div class="right">
+                        <label for="emailID">Email Address</label><br>
+                        <input type="email" name="" id="" placeholder="user@example.com"><br>
+                        <label for="lastname">Last Name of the patient</label><br>
+                        <input type="text" placeholder="Doe"><br>
+                        <label for="bloodgroup">Blood Group</label><br>
+                        <input id="bg" type="text" placeholder="A+">
+                    </div>
+                </form>
+            </div>
+
+            <div class="contact">
+                <h3>Contact Info</h3>
+                <div class="left">
+                    <label for="name">Address</label><br>
+                    <input type="text" placeholder="Your Address"><br>
+                    <label for="firstname">City</label><br>
+                    <input id="location" type="text" placeholder="Kathmandu">
+                </div>
+                <div class="right">
+                    <label for="Province">Province</label><br>
+                    <input type="select" placeholder="Select Province"><br>
+                    <label for="country">Country (Only available in Nepal for now)</label><br>
+                    <input type="text" value="Nepal" disabled style="background-color: rgb(182, 182, 182);">
+                </div>
+            </div>
+            <div class="validity">
+                <h3>Validity Info</h3>
+                <div class="left" style="width: 45%;">
+                    <label for="Medical" class="left">Upload your Medical certificate</label><br>
+                    <input type="file">
+                </div>
+                <div class="right" style="width: 45%;">
+                    <label for="aadhar">Upload your Aadhar Card</label><br>
+                    <input type="file">
+                </div>
+            </div>
+            <a href="tabular.html">
+                <center><button onclick="AddRow()">Submit</button></center>
+            </a>
+
+
+        </div>
+
+
+    </div>
+    <div id="bloodEvent" class="BloodEvent">
+        <div class="EventNavigation" id="Enav">
+            <img id="logo3" src="images/logo2.jpg" alt="">
+
+            <div class="allitems">
+                <div class="feature">
+                    <img id="myfeature" src="images/features/plus.png" alt="">
+                    <a href="#bloodEvent" onclick="receive()">
+                        <h4>Add Requests</h4>
+                    </a>
+                </div>
+                <div class="feature">
+                    <img id="myfeature" src="images/features/user (2).png" alt="">
+                    <a href="">
+                        <h4>Profile</h4>
+                    </a>
+                </div>
+
+
+
+                <div class="feature">
+                    <img id="myfeature" src="images/features/quote-request (1).png" alt="">
+                    <a href="tabular.html">
+                        <h4>Blood Requests</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contactUs" id="mailME">
+            <div class="donorform">
+                <h3 id="received">Contact Us</h3>
+                <div class="left">
+                    <form action="submit" id="contact-form">
+                        <label for="name">Your name</label>
+                        <input id="name" name="your_name" type="text" placeholder="Ram Bahadur"><br>
+                        <label for="Phone Number">Phone Number</label>
+                        <input type="text" placeholder="John" name="phone"><br>
+                        <label for="Address">Address</label><br>
+                        <input id="age" type="text" placeholder="Katpadi" name="address">
+                        <button id="sub" type="submit">Send Mail</button>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+                publicKey: "CEfIknojlc_lGYk_A",
+            });
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function () {
+            document.getElementById('contact-form').addEventListener('submit', function (event) {
+                event.preventDefault();
+                // these IDs from the previous steps
+                emailjs.sendForm('service_pdlj6lf', 'template_2hncdqk', this)
+                    .then(() => {
+                        console.log('SUCCESS!');
+                    }, (error) => {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+</body>
+
+</html>

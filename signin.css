@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ubuntu", sans-serif;
+    overflow-x: hidden;
+}
+
+
+.homePage {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navBar {
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* position: fixed; */
+}
+
+#bankimage {
+    width: 70vw;
+}
+
+#topt {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.menu2 {
+    display: flex;
+    height: 88vh;
+}
+
+#form {
+    height: 88vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0.6, 0.6, 0.6, 0.6) 60%, rgba(0, 0, 0, 0.8) 100%);
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+#submit {
+    background-color: #930002;
+    border: 1px solid transparent;
+    color: white;
+    margin-top: 5%;
+    height: 8vh;
+    width: 12vw;
+    margin-left: 3%;
+    font-size: 1.4rem;
+}
+
+#enter {
+    height: 40px;
+    width: 250px;
+    border: transparent;
+    color: black;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+
+#text {
+    font-size: 1.2rem;
+}
+
+#submit:hover {
+    background-color: #790204;
+    color: beige;
+}
+
+p {
+    letter-spacing: 0.02rem;
+    word-spacing: 0.3rem;
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-weight: 400;
+
+}
+
+span {
+    color: #930002;
+}
+
+h3 {
+    font-size: 3rem;
+
+}
+
+
+button {
+    font-size: 1.5rem;
+    color: #4C4C4C;
+    transition: all 0.5s;
+    padding: 15px 15px;
+    border: none;
+    background-color: transparent;
+    border-radius: 1.5rem;
+
+}
+
+button:hover {
+    background-color: #930002;
+    cursor: pointer;
+    color: white;
+}
+
+#logo {
+    height: 6rem;
+    width: 25rem;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

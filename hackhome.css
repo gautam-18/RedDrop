@@ -1,0 +1,148 @@
+* {
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0.6, 0.6, 0.6, 0.6) 60%, rgba(0, 0, 0, 0.8) 100%), url("./hackimg/homeimg.jpeg");
+    background-color: white;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 40%;
+}
+
+.container-1 {
+    display: flex;
+
+}
+
+.content1 {
+    display: flex;
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+    ;
+    background-color: transparent;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    width: 100%;
+    margin-top: 5%;
+
+}
+
+.content2 {
+    display: flex;
+    color: white;
+    font-size: 1.5rem;
+    background-color: transparent;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    width: 100%;
+    margin-top: 1%;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.getstart1 {
+    background-color: #790204;
+    color: white;
+    text-align: center;
+    height: 9vh;
+    width: 16vw;
+    font-size: 1.5rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-right: 15%;
+    border-radius: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+
+
+
+}
+
+.getstart1:hover {
+    background-color: #930002;
+}
+
+.getstart2 {
+    background-color: #790204;
+    color: white;
+    text-align: center;
+    height: 9vh;
+    width: 16vw;
+    font-size: 1.5rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 15%;
+    border-radius: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+
+
+}
+
+.getstart2:hover {
+    background-color: #930002;
+}
+
+.box2 {
+    width: 400px;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: black;
+
+}
+
+#chats {
+    background-color: #790204;
+    color: aliceblue;
+}
+
+#chats:hover {
+    background-color: #930002;
+    color: aliceblue;
+}

@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw;
+  box-shadow: 0px 0 10px #c9c9c9;
+}
+
+.search {
+  border: 0;
+  border-radius: 50px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 10vw;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+#Search {
+  border: none;
+  background-color: #f2f2f2;
+  padding: 0.5vw;
+  width: 30vw;
+}
+
+#search {
+  background-color: rgb(255, 51, 51);
+  padding: 0.5vw;
+  border: 0;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+#donor {
+  display: flex;
+}
+
+.donorform * {
+  width: 100%;
+}
+
+.donorform>h3 {
+  display: block;
+
+}
+
+.contact,
+.donorform,
+.validity {
+  width: 90%;
+  display: block;
+  border-radius: 1vw;
+  box-shadow: 0px 0 10px #c9c9c9;
+  margin: 2vw;
+}
+
+form {
+  margin: 2vw;
+}
+
+input[type="text"] {
+  width: 90%;
+}
+
+input[type="email"] {
+  width: 90%;
+}
+
+h3 {
+  background-color: #f2f2f2;
+  padding: 1vw;
+  color: #930002
+}
+
+input {
+  border: 1px solid rgb(177, 177, 177);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+label {
+  color: rgb(83, 83, 83);
+  text-align: left;
+  width: 50vw;
+}
+
+.contact .right,
+.contact .left {
+  width: 45%;
+}
+
+.contact>* {
+  padding: 2vw;
+}
+
+
+
+.contact input,
+.validity input {
+  width: 100%;
+}
+
+.donorform {
+  border-radius: 1vw;
+}
+
+input {
+  margin: 1vw 0;
+}
+
+
+
+body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+body>nav {
+  width: 98vw;
+}
+
+.validity>* {
+  padding: 2vw;
+}

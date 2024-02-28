@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Signup</title>
+  <link rel="stylesheet" href="reddrop_signup.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="search">
+      <input type="search" value="" placeholder="Search for..." id='Search' /><input type="button" value="Search"
+        id="search" />
+    </div>
+    <div class="icons">
+      <button><img src="../assets/bell.png" alt="notifications" height="18px" /></button>
+      <button><img src="../assets/maillogo.png" alt="mail" height="25px" /></button>
+      |
+      <button><img src="../assets/WhatsApp Image 2024-02-22 at 11.41.25 (1).jpeg" alt="userid" height="20px" /></button>
+    </div>
+  </nav>
+  <div class="donorform">
+    <h3>Blood Donor Form</h1>
+      <form action="" id="donor">
+        <div class="left">
+          <label for="name">Your name</label>
+          <input type="text" placeholder="Ram Bahadur"><br>
+          <label for="firstname">First Name of the patient</label>
+          <input type="text" placeholder="John"><br>
+          <label for="age">Age</label><br>
+          <input type="text" placeholder="25">
+        </div>
+        <div class="right">
+          <label for="emailID">Email Address</label><br>
+          <input type="email" name="" id="" placeholder="user@example.com"><br>
+          <label for="lastname">Last Name of the patient</label><br>
+          <input type="text" placeholder="Doe"><br>
+          <label for="bloodgroup">Blood Group</label><br>
+          <input type="text" placeholder="A+">
+        </div>
+      </form>
+  </div>
+
+  <div class="contact">
+    <h3>Contact Info</h3>
+    <div class="left">
+      <label for="name">Address</label><br>
+      <input type="text" placeholder="Your Address"><br>
+      <label for="firstname">City</label><br>
+      <input type="text" placeholder="Kathmandu">
+    </div>
+    <div class="right">
+      <label for="Province">Province</label><br>
+      <input type="select" placeholder="Select Province"><br>
+      <label for="country">Country (Only available in Nepal for now)</label><br>
+      <input type="text" value="Nepal" disabled style="background-color: rgb(182, 182, 182);">
+    </div>
+  </div>
+  <div class="validity">
+    <h3>Validity Info</h3>
+    <div class="left" style="width: 45%;">
+      <label for="Medical" class="left">Upload your Medical certificate</label><br>
+      <input type="file">
+    </div>
+    <div class="right" style="width: 45%;">
+      <label for="aadhar">Upload your Aadhar Card</label><br>
+      <input type="file">
+    </div>
+  </div>
+</body>
+
+</html>
